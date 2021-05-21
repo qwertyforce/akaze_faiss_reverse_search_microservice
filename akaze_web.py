@@ -17,7 +17,7 @@ index=None
 point_id_to_image_id_map={}
 image_id_to_point_ids_map={}
 
-IMAGE_PATH="./../../public/images"
+IMAGE_PATH="./../../../public/images"
 POINT_ID=0
 
 def init_index():
@@ -158,8 +158,8 @@ def calculate_descr(image_buffer):
 """
 akaze_reverse_search
 level  - hamming distance range - points to be considered as a match
-level 0 - <=5 - 1
-level 1 - <=10 - 3
+level 0 - <=5 - 2
+level 1 - <=10 - 4
 level 2 - <=15 - 6
 level 3 - <=32 - 12
 """
