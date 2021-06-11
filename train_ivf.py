@@ -27,8 +27,8 @@ def get_akaze_features_by_id(id):
     cursor.execute(query,(id,))
     all_rows = cursor.fetchone()
     return all_rows[0]  
-def train():
 
+def train():
     all_descriptors=[]
     all_ids=get_all_ids()
     for id in all_ids:
